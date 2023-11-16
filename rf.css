@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="file"] {
+    width: 200px;
+  }
+  
+  #photo-preview {
+    width: 200px;
+    height: 200px;
+    display: none;
+  }
+  
+  .checkbox {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #005B9E;
+  }
+  
