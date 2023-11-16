@@ -30,13 +30,13 @@
     <input type="email" name="email" id="email" required>
 
     <label for="phone_number">Phone Number:</label>
-    <input type="tel" name="phone_number" id="phone_number" required>
+    <input type="tel" name="phone_number" id="phone" required>
 
     <label for="address">Address:</label>
     <textarea name="address" id="address" rows="5" cols="30" required></textarea>
 
     <label for="education_qualification">Latest Education Qualification:</label>
-    <select name="education_qualification" id="education_qualification" required>
+    <select name="education_qualification" id="education" required>
       <option value="">Select</option>
       <option value="male">Intermediate</option>
       <option value="female">Bachelor's</option>
