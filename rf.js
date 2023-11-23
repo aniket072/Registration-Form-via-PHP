@@ -102,15 +102,7 @@ if (phoneNumberValue === '') {
       event.preventDefault();
     }
 
-    // Validate Terms and Conditions checkbox
-    const termsCheckbox = document.getElementById('terms_and_conditions');
-    if (!termsCheckbox.checked) {
-      alert('Please agree to the terms and conditions');
-      termsCheckbox.focus();
-      isValid = false;
-      event.preventDefault();
-    }
-
+   
     if (isValid) {
       // If all fields are valid, the form will be submitted
       alert('Form submitted successfully!');
